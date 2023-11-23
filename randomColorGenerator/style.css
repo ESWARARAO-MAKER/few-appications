@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.buttonEle{
+    height: 70px;
+    width: 120px;
+    border: none;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+.colorContainer{
+    height: 250px;
+    width: 650px;
+    margin: 30px;
+}

@@ -1,0 +1,52 @@
+.containerEle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100%;
+}
+
+.bulbImg{
+    width: 150px;
+}
+.catImg{
+    width: 250px;
+}
+
+.switchContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin: 20px;
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: none;
+}
+
+.btn{
+    height: 60px;
+    width: 120px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+.offBtn{
+    background-color: red;
+
+}
+

@@ -1,0 +1,79 @@
+.containerEle{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.guessNumContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 10px;
+    margin: 40px;
+}
+
+.guessImgEle{
+    width: 100%;
+}
+
+.textEle{
+    color: black;
+    text-align: center;
+    font-weight: 800;
+}
+
+.guessNumDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inputEle{
+    height: 50px;
+    width: 190px;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+}
+
+.checkBtn{
+    height: 40px;
+    width: 90px;
+    border-color: green;
+    border-radius: 5px;
+    border-style: solid;
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: green;
+
+}
+
+.resultContainer{
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

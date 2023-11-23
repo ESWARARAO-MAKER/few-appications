@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.para{
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 80px;
+    width: 100px;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.startBtn{
+    color: white;
+    background-color: green;
+}
+
+.stopBtn{
+    color: black;
+    background-color: red;
+}
+
+.resetBtn{
+    color: black;
+    background-color: yellow;
+}

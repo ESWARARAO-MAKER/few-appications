@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.containerEle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 800px;
+    width: 550px;
+    background-color: black;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.inputEle{
+    height: 70px;
+    width: 400px;
+    margin: 10px;
+    font-size: 35px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+.btn{
+    height: 100px;
+    width: 100px;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
